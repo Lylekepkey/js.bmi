@@ -12,16 +12,16 @@ function calculateBMI() {
     var category
 
     if (bmi < 18.5) {
-        category = "Underweight";
+        category = "Underweight 😱";
         } 
         else if (bmi >= 18.5 && bmi < 25) {
-        category = "Normal weight";
+        category = "Normal weight 😀";
         } 
         else if (bmi >= 25 && bmi < 30) {
-        category = "Overweight";
+        category = "Overweight 😨";
         } 
         else {
-        category = "Obese";
+        category = "Obese 🤕";
         }
 
         document.getElementById("result").innerHTML = "Your BMI is: " + bmi.toFixed(2) + "<br>Category: " + category
